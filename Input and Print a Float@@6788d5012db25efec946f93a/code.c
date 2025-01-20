@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("HELO HOOOOOOOOOOD");
+    float a;
+    scanf("%d",&a);
+    printf("You entered: ",a)
     return 0;
 }
