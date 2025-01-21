@@ -2,11 +2,13 @@
 
 int main() {
     int a;
-    int b,
+    int b;
+    int c;
     printf("");
     scanf("%d",&a);
-    printf(" ")
+    printf(" ");
     scanf("%d",&b);
-    printf("Sum: ",a + b);
+    c = a + b;
+    printf("Sum: ",c);
     return 0;
 }
