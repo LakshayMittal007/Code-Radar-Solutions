@@ -1,9 +1,11 @@
 #include <stdio.h>
-float a;
+
 int main() 
-{   printf("");
+
+{   float a;  
+    printf("");
     scanf("%f",&a);
     printf("You entered: ");
-    printf("%f",a);
+    printf("%.2f",a);
     return 0;
 }
