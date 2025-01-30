@@ -7,7 +7,7 @@ int main() {
     scanf("%f",&r);
 
     a = pie*r*r;
-    printf("Area: %f",a);
+    printf("Area: %.2f",a);
 
     return 0;
 }
