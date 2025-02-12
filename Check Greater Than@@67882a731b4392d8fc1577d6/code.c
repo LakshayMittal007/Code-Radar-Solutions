@@ -4,7 +4,7 @@ int main()
     int a;
     int b;
     scanf("%d",&a);
-    sacnf("%d",&b);
+    scanf("%d",&b);
     if(a>b){
         printf("True");
     }
