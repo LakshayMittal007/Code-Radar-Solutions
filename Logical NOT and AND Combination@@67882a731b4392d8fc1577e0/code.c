@@ -7,7 +7,8 @@ int main()
     scanf("%d",&b);
     if(a & b !> 0){
         printf("True");
-
     }
-    else{printf("False");}
-    return 0;}
+    else{
+        printf("False");}
+    return 0;
+}
