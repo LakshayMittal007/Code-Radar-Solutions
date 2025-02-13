@@ -2,8 +2,10 @@
 int main(){
     int a;
     int b;
+    int c;
     scanf("%d",&a);
     scanf("%d",&b);
-    printf("%d",a OR b);
+    c = a OR b;
+    printf("%d",c);
     return 0;
 }
