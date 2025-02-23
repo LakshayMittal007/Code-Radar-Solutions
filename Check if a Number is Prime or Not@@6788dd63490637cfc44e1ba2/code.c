@@ -11,5 +11,5 @@ int main(){
     }
     if(n==2){printf("Prime");}
     else{printf("Not Prime");}
-    return 0,
+    return 0;
 }
