@@ -9,9 +9,7 @@ int main(){
             n=n+1
         }
     }
-    if(n==2){
-        printf("Prime");
-    }
+    if(n==2){printf("Prime");}
     else{printf("Not Prime");}
     return 0,
 }
