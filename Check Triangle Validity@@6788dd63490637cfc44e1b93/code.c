@@ -5,6 +5,6 @@ int main(){
     if((a+b>c)&&(a+c>b)&&(b+c>a)){
         printf("Valid");
     }
-    else("Invalid");
+    else{printf("Invalid");}
     return 0;
 }
