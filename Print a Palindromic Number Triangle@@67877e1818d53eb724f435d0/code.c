@@ -12,6 +12,7 @@ int main(){
         for(int z=i-1;z>=1;z--){
             printf("%d",z);
         }
+        printf("\n");
     }
-    printf("\n");
+    return 0;
 }
