@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
     int n,i;
+    char j;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(char j='A';j<=i;j++){
+        for(j=1;j<=i;j++){
             printf("%c",j);
         }
         printf("\n");
