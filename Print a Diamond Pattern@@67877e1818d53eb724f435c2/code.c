@@ -6,11 +6,8 @@ int main(){
         for(j=1;j<=n-i;j++){
             printf(" ");
         }
-        for(int k=1;k=2*i-1;k++){
-            if(k==1||k==2*i-1){
-                printf("*");
-            }
-            else{printf(" ");}
+        for(int k=1;k<=2*i-1;k++){
+            printf("*");
         }
         printf("\n");
     }
@@ -18,11 +15,8 @@ int main(){
         for(j=1;j<=n-i;j++){
             printf(" ");
         }
-        for(int z=1;z<=2*i-1;z++){
-            if(z==1||z==2*i-1){
-                printf("*");
-            }
-            else{printf(" ");}
+        for(int k=1;k<= 2*i-1;k++){
+            printf("*");
         }
         printf("\n");
     }
