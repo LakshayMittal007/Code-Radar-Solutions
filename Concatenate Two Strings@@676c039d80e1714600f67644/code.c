@@ -3,8 +3,8 @@
 int main(){
     char str[50];
     char strr[50];
-    scanf("%s[^\n]",str);
-    scanf("%s[^\n]",strr);
+    scanf("%[^\n]s",str);
+    scanf("%[^\n]s",strr);
     int i=0,j=0,k=0,l=0,le=0,m=0;
     while(str[k]!='\0'){
         k++;
