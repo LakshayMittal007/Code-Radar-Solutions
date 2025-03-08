@@ -4,7 +4,7 @@ int main(){
     scanf("%s",&str);
     char a[50] = "aeiouAEIOU";
     int l=0,len=0,i,j,k;
-    while(str[l]!='0'){
+    while(str[l]!='\0'){
         l++;
     }
     for(i=0;i<l;i++){
