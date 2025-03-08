@@ -10,12 +10,12 @@ int main(){
         k++;
         l++;
     }
-    for(i=0;i<l;i++){
-        printf("%d",str[i]);
-    }
     while(strr[m]!='\0'){
         m++;
         le++;
+    }
+    for(i=0;i<l;i++){
+        printf("%d",str[i]);
     }
     for(int p=0;p<le;p++){
         printf("%d",strr[p]);
