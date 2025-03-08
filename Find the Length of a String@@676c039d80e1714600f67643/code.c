@@ -3,7 +3,7 @@
 int main(){
     char str[50];
     int i=0,l=0;
-    fgets(str);
+    scanf("%[^\n]s",str);
     while(str[i]!='\0'){
         l++;
         i++;
