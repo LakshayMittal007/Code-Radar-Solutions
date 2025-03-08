@@ -2,11 +2,15 @@
 int main(){
     int str[100];
     scanf("%[^\n]s",&str);
-    int i,j,l=1,k;
-    for(i=0;i<=100;i++){
-        if(str[i]==' ');
+    int i=0,j=0,l=0,k=1;
+    while(str[i]!='\0'){
         l++;
+        j++;
     }
-    printf("%d",l);
+    for(i=0;i<l;i++){
+        if(str[i]==' ');
+        k++;
+    }
+    printf("%d",k);
     return 0;
 }
