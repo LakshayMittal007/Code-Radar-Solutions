@@ -7,7 +7,8 @@ int main(){
     }
     scanf("%d",&k);
     for(int j=1;j<=k;j++){
-        for(int z=k;)
-    }
-
+        arr[n-1]=arr[0];
+        }
+    return 0; 
 }
+
