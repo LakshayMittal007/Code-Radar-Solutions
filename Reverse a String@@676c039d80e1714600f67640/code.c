@@ -4,7 +4,7 @@ int main(){
     char a[100],rev[100];
     scanf("%s",&a);
     strcpy(rev , a);
-    strrev(rev);
+    strsep(rev);
     printf("%s",rev);
     return 0;
 }
