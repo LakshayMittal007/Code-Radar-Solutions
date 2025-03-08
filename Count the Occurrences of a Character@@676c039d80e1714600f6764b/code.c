@@ -3,8 +3,8 @@ int main(){
     char str[50];
     char n;
     int i=0,j=0,l=0,k=0;
-    scanf("%[^\n]s",str);
-    scanf(" %c",&n);
+    scanf("%s",str);
+    scanf("%c",&n);
     while(str[i]!='\0'){
         i++;
         l++;
