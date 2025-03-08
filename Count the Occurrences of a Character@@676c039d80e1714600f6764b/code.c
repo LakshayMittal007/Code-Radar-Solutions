@@ -12,6 +12,7 @@ int main(){
     for(j=0;j<l;j++){
         if(n==str[j]){
             k++;
+            j++;
         }
     }
     printf("%d",k);
