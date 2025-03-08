@@ -3,7 +3,9 @@
 int main(){
     char a[100];
     scanf("%s",&a);
-    int l = strlen(a);
+    while(a[l] != '0'){
+        l++;
+    }
     for(int i= l-1;i>=0;i--){
         printf("%c",a[i]);
     }
