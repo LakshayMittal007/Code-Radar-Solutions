@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    int str[100];
-    scanf("%[^\n]s",&str);
+    int str[40];
+    scanf("%[^\n]s",str);
     int i,j=0,l=0,k=1;
     while(str[j]!='\0'){
         l++;
