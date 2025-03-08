@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char str[100];
-    char a[50] = "aeiou";
+    char a[50] = "aeiouAEIOU";
     int l=0,len=0,i,j,k;
     while(str[l]!='0'){
         l++;
