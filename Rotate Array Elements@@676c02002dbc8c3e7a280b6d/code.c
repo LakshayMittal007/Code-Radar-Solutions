@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int arr[],k;
+    int arr[];
+    int k;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d\n",&arr[i]);
@@ -18,4 +19,3 @@ int main(){
     }
     return 0; 
 }
-
