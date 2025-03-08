@@ -15,10 +15,10 @@ int main(){
         le++;
     }
     for(i=0;i<l;i++){
-        printf("%d",str[i]);
+        printf("%c",str[i]);
     }
     for(int p=0;p<le;p++){
-        printf("%d",strr[p]);
+        printf("%c",strr[p]);
     }
     return 0;
 }
