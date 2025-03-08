@@ -1,8 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char a[50];
+    char a[50],rev[50];
     scanf("%s",&a);
-    printf("%s",strrev(a));
+    strcpy(rev , a);
+    strrev(rev);
+    printf("%s",rev);
     return 0;
 }
