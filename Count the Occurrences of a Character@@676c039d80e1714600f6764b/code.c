@@ -10,7 +10,7 @@ int main(){
         l++;
     }
     for(j=0;j<l;j++){
-        if(str[j]==n){
+        if(n==str[j]){
             k++;
         }
     }
