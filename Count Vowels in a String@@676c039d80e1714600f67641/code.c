@@ -7,7 +7,7 @@ int main(){
         l++;
     }
     for(i=0;i<l;i++){
-        for(j=0;j<5;j++){
+        for(j=0;j<10;j++){
             if(str[i]==a[j]){
                 len++;
             }
