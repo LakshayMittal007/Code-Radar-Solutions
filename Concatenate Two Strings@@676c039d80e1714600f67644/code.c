@@ -5,7 +5,7 @@ int main(){
     char strr[50];
     scanf("%s\n",str);
     scanf("%s",strr);
-    int i,j,k,l,le,m;
+    int i=0,j=0,k=0,l=0,le=0,m=0;
     while(str[k]!='\0'){
         k++;
         l++;
