@@ -2,6 +2,7 @@
 #include<string.h>
 int main(){
     char str[50];
+    getchar();
     char strr[50];
     scanf("%[^\n]s",str);
     scanf("%[^\n]s",strr);
