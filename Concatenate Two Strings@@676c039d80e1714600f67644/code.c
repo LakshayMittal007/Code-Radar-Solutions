@@ -2,9 +2,9 @@
 #include<string.h>
 int main(){
     char str[50];
-    getchar();
     char strr[50];
     scanf("%[^\n]s",str);
+    getchar();
     scanf("%[^\n]s",strr);
     int i=0,j=0,k=0,l=0,le=0,m=0;
     while(str[k]!='\0'){
