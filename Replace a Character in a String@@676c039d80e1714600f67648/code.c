@@ -6,6 +6,7 @@ int main(){
     scanf("%[^\n]s",str);
     getchar();
     scanf("%c",&n);
+    getchar();
     scanf("%c",&a);
     int i=0,j=0,k=0,l=0,m=0;
     for(i=0;str[i]!='\0';i++){
