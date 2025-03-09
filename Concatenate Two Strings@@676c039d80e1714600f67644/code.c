@@ -7,18 +7,12 @@ int main(){
     scanf("%[^\n]s",strr);
     int i=0,j=0,k=0,l=0,le=0,m=0;
     while(str[k]!='\0'){
+        printf("%c",str[k]);
         k++;
-        l++;
     }
     while(strr[m]!='\0'){
         m++;
-        le++;
-    }
-    for(i=0;i<l;i++){
-        printf("%c",str[i]);
-    }
-    for(int p=0;p<le;p++){
-        printf("%c",strr[p]);
+        printf("%c",strr[m]);
     }
     return 0;
 }
