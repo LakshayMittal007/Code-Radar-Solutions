@@ -7,7 +7,7 @@ int main(){
         if(str[i]!=' '){
             printf("%c",str[i]);
         }
+        i++;
     }
     return 0;
-    
 }
