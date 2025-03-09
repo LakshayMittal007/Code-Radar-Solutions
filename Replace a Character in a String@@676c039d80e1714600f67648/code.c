@@ -10,10 +10,8 @@ int main(){
     for(i=0;str[i]!='\0';i++){
         if(str[i]==n){
             str[i]==a;
+            printf("%c",str[i]);
         }
-    }
-    for(i=0;str[i]!='\0';i++){
-        printf("%c",str[i]);
     }
     return 0;
 }
