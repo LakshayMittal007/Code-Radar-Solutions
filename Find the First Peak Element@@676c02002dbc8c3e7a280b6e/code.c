@@ -7,10 +7,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<N;i++){
-        if((arr[i]<arr[i+1])&&(arr[i+1]>arr[i+2])){
-            printf("%d",arr[i+1]);
-            break;
+        if(i>0&&i<N-1){
+            if((arr[i]<arr[i+1])&&(arr[i+1]>arr[i+2])){
+                k=arr[i+1];
+                break;
+                }
+        }
+        else if()
         }
 
     }
-}
