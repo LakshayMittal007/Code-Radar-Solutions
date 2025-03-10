@@ -12,7 +12,6 @@ int main(){
         }
     }
     for(int i=0;i<N;i++){
-
         if(mi<=arr[i]){
             mi=arr[i];}}
     printf("%d ",mi);
