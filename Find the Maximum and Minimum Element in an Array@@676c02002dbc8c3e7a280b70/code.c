@@ -8,9 +8,9 @@ int main(){
         if(ma>arr[i]){
             ma=arr[i];
         }
-        else if(mi<arr[i])(
+        else if(mi<arr[i]){
             mi=arr[i];
-        )
+    }
     }
     printf("%d ",mi);
     printf("%d ",ma);
