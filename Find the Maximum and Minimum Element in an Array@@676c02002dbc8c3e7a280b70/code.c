@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,ma=0,mi=0;
+    int N,ma,mi;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
@@ -13,7 +13,7 @@ int main(){
         else if(mi<=arr[i]){
             mi=arr[i];}
     }
-    printf("%d ",mi);
     printf("%d ",ma);
+    printf("%d ",mi);
     return 0;
 }
