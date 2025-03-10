@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N;
+    int N,i;
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
@@ -8,6 +8,6 @@ int main(){
             printf("%d",arr[i+1]);
             break;
         }
-        
+
     }
 }
