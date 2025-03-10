@@ -10,9 +10,11 @@ int main(){
         if(ma>=arr[i]){
             ma=arr[i];
         }
-        else if(mi<=arr[i]){
-            mi=arr[i];}
     }
+    for(int i=0;i<N;i++){
+
+        else if(mi<=arr[i]){
+            mi=arr[i];}}
     printf("%d ",mi);
     printf("%d ",ma);
     return 0;
