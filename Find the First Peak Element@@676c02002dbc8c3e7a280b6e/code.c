@@ -6,14 +6,15 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    int max=arr[0];
     for(i=0;i<N;i++){
-        if(i>0&&i<N-1){
-            if((arr[i]<arr[i+1])&&(arr[i+1]>arr[i+2])){
-                k=arr[i+1];
-                break;
-                }
+        if(max<arr[i]){
+            max = arr[i];
+            if(max>arr[i+1] || max==arr[N-1]){
+                printf("%d",max);
+                return 0;
+            }
         }
-        else if()
-        }
-
     }
+    printf("-1");
+}
