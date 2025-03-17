@@ -12,7 +12,7 @@ int main(){
             max=arr[i];
         }
     }
-    int m=0;
+    int m=arr[0];
     for(i=0;i<N;i++){
         if(m<arr[i]&&m<max){
             m=arr[i];
