@@ -18,5 +18,5 @@ int main(){
             m=arr[i];
         }
     }
-    printf("%d", max);
+    printf("%d", m);
 }
