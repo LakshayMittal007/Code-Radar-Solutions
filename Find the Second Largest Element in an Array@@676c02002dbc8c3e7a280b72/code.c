@@ -14,10 +14,8 @@ int main(){
     }
     int m=0;
     for(i=0;i<N;i++){
-        if(m<arr[i]){
-            if(m<max){
-                m=arr[i];
-            }
+        if(m<arr[i]&&m<max){
+            m=arr[i];
         }
     }
     return 0;
