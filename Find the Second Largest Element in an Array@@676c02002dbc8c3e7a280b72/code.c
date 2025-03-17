@@ -16,7 +16,10 @@ int main(){
     for(i=0;i<N;i++){
         if(m<arr[i] && m<max){
             m=arr[i];
+            printf("%d", m);
+            return 0;
+            
         }
     }
-    printf("%d", m);
+    printf("-1");
 }
