@@ -11,9 +11,9 @@ int main(){
         for(j=1;j<=arr[m];j++){
             if(arr[m]%j==0){
                 k++;
-                if(k==2){
-                    p++;
-                }
+            }
+            if(k==2){
+                p++;
             }
             }
         }
