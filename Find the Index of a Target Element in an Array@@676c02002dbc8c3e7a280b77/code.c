@@ -15,5 +15,7 @@ int main(){
             return 0;
         }
     }
-    printf("-1");
+    else{printf("-1");}
+    return 0;
+
 }
