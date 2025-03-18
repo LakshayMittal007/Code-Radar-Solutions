@@ -13,9 +13,10 @@ int main(){
                 k++;
             }
             }
-            if(k==2){
-                p++;
-            }
+        if(k==2){
+            p++;
+        }
+        k=0;
         }
     printf("%d",p);
     return 0;
