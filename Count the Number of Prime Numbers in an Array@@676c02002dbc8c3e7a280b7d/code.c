@@ -12,9 +12,9 @@ int main(){
             if(arr[m]%j==0){
                 k++;
             }
+            }
             if(k==2){
                 p++;
-            }
             }
         }
     printf("%d",p);
