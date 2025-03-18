@@ -13,7 +13,6 @@ int main(){
             printf("%d",j);
             break;
         }
-        return 0;
     }
     printf("-1");
 
