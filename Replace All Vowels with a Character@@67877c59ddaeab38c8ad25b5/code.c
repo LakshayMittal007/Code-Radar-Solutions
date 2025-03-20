@@ -2,6 +2,7 @@
 int main(){
     char str[50];
     scanf("%[^\n]s",str);
+    getchar();
     char r;
     scanf("%c",&r);
     for(int i=0;str[i]!='\0';i++){
