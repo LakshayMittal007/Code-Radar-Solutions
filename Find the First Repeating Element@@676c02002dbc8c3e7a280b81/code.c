@@ -11,8 +11,9 @@ int main(){
             if(arr[i] == arr[j]){
                 printf("%d",arr[i]);
                 break;
+                return 0;
             }
         }
     }
-    return 0;
+    printf("-1");
 }
