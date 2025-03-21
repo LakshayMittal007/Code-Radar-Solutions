@@ -16,7 +16,7 @@ int main(){
         if(k==n-j){
             printf("%d ",arr[i]);
         }
-        else if(i==n-1){
+        else if(i==n-i){
             printf("%d",arr[n-1]);
         }
     }
