@@ -1,6 +1,7 @@
 #include<stdio.h>
 int bubbleSort(arrr, num){
-    int arrr[n];
+    int num;
+    int arrr[num];
     int i;
     for(i=0;i<num;i++){
         for(int j=i;j<n;j++){
