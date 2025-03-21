@@ -1,4 +1,3 @@
-
 int isPrime(int x){
     int a=1,b=0;
     if(x==1){
