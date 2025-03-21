@@ -4,7 +4,7 @@ int bubbleSort(arrr, num){
     int arrr[num];
     int i;
     for(i=0;i<num;i++){
-        for(int j=i;j<n;j++){
+        for(int j=i;j<num;j++){
             if(arrr[i]>=arrr[j]){
                 int a = arrr[i];
                 arrr[i] = arrr[j];
