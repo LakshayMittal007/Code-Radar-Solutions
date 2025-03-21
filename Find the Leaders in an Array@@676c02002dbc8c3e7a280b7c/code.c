@@ -13,7 +13,7 @@ int main(){
                 k++;
             }
         }
-        if(k==n-i-1){
+        if(k==n-j){
             printf("%d ",arr[i]);
         }
         else if(i==n-1){
