@@ -10,9 +10,9 @@ int main(){
         for(j=i+1;j<n;j++){
             if(arr[i] == arr[j]){
                 printf("%d",arr[i]);
-                break;
                 return 0;
             }
+
         }
     }
     printf("-1");
