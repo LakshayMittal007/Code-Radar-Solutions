@@ -15,10 +15,6 @@ int isPrime(int x){
             if(x%i==0){
                 return b;
             }
-            else{
-                
-                continue;
-            }
         }
         
         return a;
