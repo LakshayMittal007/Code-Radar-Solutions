@@ -1,5 +1,5 @@
 #include<stdio.h>
-int bubbleSort(arrr, num){
+int bubbleSort(){
     int num;
     int arrr[num];
     int i;
@@ -15,7 +15,7 @@ int bubbleSort(arrr, num){
     }
     return 0;
 }
-int printArray(ar, no){
+int printArray(){
     int no;
     int ar[n];
     for(int i=0;i<no;i++){
