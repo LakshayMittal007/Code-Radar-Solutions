@@ -14,7 +14,7 @@ int main(){
             }
         }
         if(k==n-i){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
         else if(i==n-1){
             printf("%d",arr[n-1]);
