@@ -8,13 +8,13 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    max = 0;
+    max = -10000;
     for(i=0;i<n;i++){
         if(max < arr[i]){
             max = arr[i];
         }
     }
-    min = 0;
+    min = -100;
     for(i=0;i<n;i++){
         if((min < arr[i])&&arr[i] < max){
             min = arr[i];
