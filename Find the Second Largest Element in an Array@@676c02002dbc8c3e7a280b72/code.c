@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -14,6 +15,9 @@ int main(){
         if(max < arr[i]){
             min = max;
             max = arr[i]; 
+        }
+        else if (arr[i] > min && arr[i] != max) {
+            secondLargest = arr[i];
         }
     }
     if(min == j){
