@@ -17,7 +17,7 @@ int main(){
             max = arr[i]; 
         }
         else if (arr[i] > min && arr[i] != max) {
-            secondLargest = arr[i];
+            min = arr[i];
         }
     }
     if(min == j){
