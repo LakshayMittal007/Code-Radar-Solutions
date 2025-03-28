@@ -16,6 +16,6 @@ int main(){
         }
     }
     for(i=0;i<j;i++){
-        printf("0 ")
+        printf("0");
     }
 }
