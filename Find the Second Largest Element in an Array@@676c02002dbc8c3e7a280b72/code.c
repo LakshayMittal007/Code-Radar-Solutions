@@ -14,7 +14,7 @@ int main(){
             max = arr[i];
         }
     }
-    min = arr[0];
+    min = 0;
     for(i=0;i<n;i++){
         if((min < arr[i])&&arr[i] < max){
             min = arr[i];
