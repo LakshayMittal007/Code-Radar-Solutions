@@ -16,7 +16,7 @@ int main(){
             max = arr[i]; 
         }
     }
-    if(min = j){
+    if(min == j){
         printf("-1");
     }
     else{printf("%d",min);}
