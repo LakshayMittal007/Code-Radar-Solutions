@@ -12,10 +12,10 @@ int main(){
             j++;
         }
         else{
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
     for(i=0;i<j;i++){
-        printf("0");
+        printf("0 ");
     }
 }
