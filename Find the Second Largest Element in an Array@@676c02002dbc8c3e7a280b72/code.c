@@ -1,25 +1,24 @@
 #include<stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
-    int arr[N],i,m,max;
-    for(i=0;i<N;i++){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    int i,j,l;
+    int max,min;
+    for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    max=arr[0];
-    for(i=0;i<N;i++){
-        if(max<arr[i]){
-            max=arr[i];
+    max = arr[0];
+    for(i=0;i<n;i++){
+        if(max > arr[i]){
+            max == arr[i];
         }
     }
-    m=arr[0];
-    for(i=0;i<N;i++){
-        if(m<arr[i] && m<max){
-            m=arr[i];
-            printf("%d", m);
-            return 0;
-            
+    min = arr[0];
+    for(i=0;i<n;i++){
+        if((min > arr[i])&&arr[i]<max){
+            min = arr[i];
         }
     }
-    printf("-1");
+    printf("%d",min);
 }
