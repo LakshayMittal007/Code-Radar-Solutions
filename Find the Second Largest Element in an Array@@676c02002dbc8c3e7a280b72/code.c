@@ -19,5 +19,5 @@ int main(){
     if(min = j){
         printf("-1");
     }
-    else(printf("%d",min));
+    else{printf("%d",min)};
 }
