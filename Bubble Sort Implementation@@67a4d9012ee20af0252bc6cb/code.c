@@ -6,9 +6,6 @@ int bubbleSort(int arr[],int n){
                 arr[i+1] = arr[i];
                 arr[i] = a;
             }
-            else{
-                continue;
-            }
 
         }
     }
