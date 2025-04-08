@@ -14,7 +14,7 @@ int main(){
         }
         if(l>m){
             m=l;
-            a = str[i];
+            a = arr[i];
         }
         l=0;
     }
