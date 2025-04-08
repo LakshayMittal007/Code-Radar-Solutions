@@ -7,11 +7,14 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<n;i++){
-        if(arr[i]>arr[i+1]){
-            int k = arr[i];
-            arr[i] = arr[j];
-            arr[j] = k;
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int a = arr[j+1];
+                arr[j+1] = arr[j];
+                arr[j] = a;
+            }
+
         }
     }
     for(i=0;i<n;i++){
