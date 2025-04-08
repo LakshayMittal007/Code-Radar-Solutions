@@ -3,7 +3,7 @@ int main(){
     char str[100];
     scanf("%s",str);
     int l=0,k=0,i;
-    while(str[i]!='\0'){
+    for(i=0;str[i]!='\0';i++){
         l++;
     }
     for(i=0;i<l;i++){
