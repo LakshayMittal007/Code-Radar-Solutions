@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int i,j,k,l;
+    int i,j,k=0;
     int arr[n];
     int max=1;
     for(int j=0;j<n-1;j++){
@@ -26,6 +26,7 @@ int main(){
         if(max<=k){
             max = k;
         }
+        k=0;
     }
     printf("%d",max);
 }
