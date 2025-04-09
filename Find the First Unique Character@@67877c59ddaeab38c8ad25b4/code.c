@@ -7,7 +7,7 @@ int main(){
         l++;
     }
     for(i=0;i<l;i++){
-        for(j=i+1;j<l;j++){
+        for(j = 0; j < l; j++){
             if(i != j && str[i] == str[j]){
                 k++;
             }
