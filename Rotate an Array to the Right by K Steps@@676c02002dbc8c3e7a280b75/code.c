@@ -7,11 +7,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    if(n<k){
-        j = k-n;
+    if(n < k){
+        j = k - n;
     }
     else{
-        j = n-k;
+        j = n - k;
     }
     for(i=j;i<n;i++){
         printf("%d ",arr[i]);
