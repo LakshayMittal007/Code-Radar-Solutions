@@ -3,17 +3,20 @@ int main(){
     int n, arr[n];
     int k,i,j;
     scanf("%d",&n);
-    if(n<k){
-        k = k-n;
-    }
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    for(i=n-k;i<n;i++){
+    if(n<k){
+        j = k-n;
+    }
+    else{
+        j = n-k;
+    }
+    for(i=j;i<n;i++){
         printf("%d ",arr[i]);
     }
-    for(i=0;i<n-k;i++){
+    for(i=0;i<j;i++){
         printf("%d ",arr[i]);
     }
 }
