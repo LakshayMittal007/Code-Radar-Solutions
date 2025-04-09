@@ -16,7 +16,7 @@ int main(){
             printf("%c",str[i]);
             return 0;
         }
-        else{k=0;}
+        k=0;
     }
     printf("-");
 }
