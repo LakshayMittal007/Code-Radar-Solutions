@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int first,second;
+    int first=0,second=0;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] < first) {
@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    if (second == INT_MAX) {
+    if (second == 0) {
         printf("-1"); // No second smallest exists (all elements are equal or only one element)
     } else {
         printf("%d", second);
