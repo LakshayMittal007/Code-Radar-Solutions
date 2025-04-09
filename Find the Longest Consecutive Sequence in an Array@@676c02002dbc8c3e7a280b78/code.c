@@ -5,12 +5,12 @@ int main(){
     int i,j,k=0;
     int arr[n];
     int max=1;
-    for(int j=0;j<n-1;j++){
-        for(int i=0;i<n-j-1;i++){
-            if(arr[i]>arr[i+1]){
-                int a = arr[i+1];
-                arr[i+1] = arr[i];
-                arr[i] = a;
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int a = arr[j+1];
+                arr[j+1] = arr[j];
+                arr[j] = a;
             }
         }
     }
