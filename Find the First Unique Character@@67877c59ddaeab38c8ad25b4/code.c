@@ -2,7 +2,7 @@
 int main(){
     char str[50];
     scanf("%s",str);
-    int i,k,l;
+    int i,j,k,l;
     while(str[l]!='\0'){
         l++;
     }
