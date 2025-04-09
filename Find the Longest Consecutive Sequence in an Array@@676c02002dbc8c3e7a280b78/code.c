@@ -15,8 +15,8 @@ int main(){
         }
     }
     for(i=0;i<n-1;i++){
-        for(j=i;j<n;j++){
-            if(arr[j+1]-1 == arr[j]){
+        for(j=i;j<n-1;j++){
+            if((arr[j+1])-1 == arr[j]){
                 k++;
             }
             else{
