@@ -19,6 +19,6 @@ int main(){
         printf("%d",mii);
     }
     else{
-        printf{"-1"};
+        printf("-1");
     }
 }
