@@ -1,24 +1,30 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int i,k,j,mii=100,min=1000;
+    scanf("%d", &n);
     int arr[n];
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(i=0;i<n;i++){
-        for(j=i+1;j<n;j++){
-            if(arr[j]<arr[i]){
-                mii = min;
-                min = arr[j];
-            }
+
+    int first = INT_MAX, second = INT_MAX;
+
+    for (int i = 0; i < n; i++) {
+        if (arr[i] < first) {
+            second = first;
+            first = arr[i];
+        } else if (arr[i] > first && arr[i] < second) {
+            second = arr[i];
         }
     }
-    if(mii>min){
-        printf("%d",mii);
+
+    if (second == INT_MAX) {
+        printf("-1"); // No second smallest exists (all elements are equal or only one element)
+    } else {
+        printf("%d", second);
     }
-    else{
-        printf("-1");
-    }
+
+    return 0;
 }
