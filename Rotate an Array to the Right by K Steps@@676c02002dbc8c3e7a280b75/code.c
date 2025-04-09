@@ -9,7 +9,7 @@ int main(){
     }
     scanf("%d",&k);
     if(n < k){
-        j = k - n;
+        j = k - n - 1;
     }
     else{
         j = n - k;
