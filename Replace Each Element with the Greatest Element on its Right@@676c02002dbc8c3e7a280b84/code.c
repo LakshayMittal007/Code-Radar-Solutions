@@ -6,15 +6,17 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for (int i = 0; i < n; i++) {
-        int found = 0;
-        for (int j = i + 1; j < n; j++) {
-            if (arr[j] > arr[i]) {
-                printf("%d ", arr[j]);
-                found = 1;
-                break;
+    for(i=0;i<n-1;i++){
+        for(j=i+1;j<n;j++){
+            if(arr[j]>arr[i]){
+                max = arr[j];
+                if(k<max){
+                    k=max;
+                }
             }
         }
+        printf("%d ",k);
+        k=-1000;
     }
     printf("-1");
 }
