@@ -16,7 +16,7 @@ int main(){
             }
         }
         printf("%d ",k);
-        k=0;
+        k=5;
     }
     printf("-1");
 }
