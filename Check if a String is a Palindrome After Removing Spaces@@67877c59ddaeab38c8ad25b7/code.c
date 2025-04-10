@@ -22,6 +22,7 @@ int main(){
             k++;
         }
     }
+    printf("%d",k);
     if(len/2 - 1 == k){
         printf("Yes");
     }
