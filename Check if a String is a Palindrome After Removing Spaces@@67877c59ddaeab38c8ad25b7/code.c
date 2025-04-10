@@ -22,7 +22,7 @@ int main(){
             k++;
         }
     }
-    if(len/2 == k){
+    if(len/2 + 1 == k){
         printf("Yes");
     }
     else{
