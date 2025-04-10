@@ -16,7 +16,7 @@ int main(){
             }
         }
         printf("%d ",k);
-        k=5;
+        k = arr[i+1];
     }
     printf("-1");
 }
