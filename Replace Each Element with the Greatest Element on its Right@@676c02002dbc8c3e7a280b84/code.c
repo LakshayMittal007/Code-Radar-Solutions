@@ -7,14 +7,15 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (i = 0; i < n - 1; i++) {
-        k = -1;
+        max = -1;  
         for (j = i + 1; j < n; j++) {
             if (arr[j] > arr[i]) {
-                k = arr[j]; 
-                break;
+                if (arr[j] > max) {
+                    max = arr[j]; 
+                }
             }
         }
-        printf("%d ", k);
+        printf("%d ", max);
     }
     printf("-1");
     return 0;
