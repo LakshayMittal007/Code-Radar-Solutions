@@ -18,7 +18,7 @@ int main(){
         }
     }
     for(j=0;j<len;j++){
-        if(st[j]==str[len-j]){
+        if(st[j]==str[len-j-1]){
             k++;
         }
     }
