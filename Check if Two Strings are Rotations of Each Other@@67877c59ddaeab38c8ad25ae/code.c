@@ -36,6 +36,7 @@ int main(){
             m++;
         }
     }
+    printf("%d",m);
     if(m==l){
         printf("Yes");
     }
