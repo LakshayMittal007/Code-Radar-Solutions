@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     char str[100];
+    char st[100];
     scanf("%s\n",str);
     scanf("%s",st);
     int i,j,k,l=0,len=0;
