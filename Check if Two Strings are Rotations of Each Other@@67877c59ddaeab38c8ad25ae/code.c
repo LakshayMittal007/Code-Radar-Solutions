@@ -17,7 +17,7 @@ int main(){
         return 0;
     }
     for(j=0;j<l;j++){
-        if(str[0]==str[j]){
+        if(str[0]==st[j]){
             break;
         }
     }
