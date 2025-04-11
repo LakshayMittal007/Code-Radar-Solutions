@@ -2,7 +2,7 @@
 int main(){
     char str[100];
     int i,j,k=0,l=0;
-    scanf("%s",str);
+    scanf("%[^\n]s",str);
     for(i=0;str[i]!='\0';i++){
         for(j=i;j>0;j--){
             if(str[i]==str[j]){
