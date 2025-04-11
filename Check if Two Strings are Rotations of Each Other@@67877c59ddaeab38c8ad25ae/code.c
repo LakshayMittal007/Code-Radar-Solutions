@@ -21,6 +21,7 @@ int main(){
             break;
         }
     }
+    printf("%d",j);
     
     for(i=j;i<l;i++){
         str[i] = s[k];
