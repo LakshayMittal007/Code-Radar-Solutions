@@ -17,12 +17,12 @@ int main(){
         return 0;
     }
     else{
-        for(j=1;j<l;j++){
+        for(j=0;j<l;j++){
             if(str[0]==str[j]){
                 break;
             }
         }
-    }
+    
     for(i=j;i<l;i++){
         str[i] == s[k];
         k++;
@@ -42,4 +42,4 @@ int main(){
     }
     else{printf("No");}
 
-}
+}}
