@@ -18,6 +18,7 @@ int main(){
         }
     }
     for(j=0;j<len;j++){
+        printf("%c",st[j]);
         if(st[j]==st[len-j-1]){
             k++;
         }
