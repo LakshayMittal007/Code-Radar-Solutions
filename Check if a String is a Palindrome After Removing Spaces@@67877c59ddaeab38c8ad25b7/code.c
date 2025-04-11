@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<l;i++){
         if(str[i]!=' '){
-            st[j]==str[i];
+            st[j]=str[i];
             j++;
             len++;
         }
