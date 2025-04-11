@@ -21,7 +21,7 @@ int main(){
             break;
         }
     }
-    if(str[1]!=st[j+1]){
+    if(str[1]!=st[j+1]||str[2]!=st[j+2]){
         printf("No");
         return 0;
     }
