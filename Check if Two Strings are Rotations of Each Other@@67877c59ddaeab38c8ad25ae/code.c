@@ -27,23 +27,24 @@ int main(){
     }
 
     
-    for(i=j;i<l;i++){
-        str[i] = s[k];
-        k++;
-    }
-    for(i=0;i<j;i++){
-        str[i] = s[k];
-        k++;
-    }
-    for(i=0;i<l;i++){
-        if(st[i] == s[i]){
-            m++;
-        }
-    }
-    printf("%d",m);
-    if(m==l){
-        printf("Yes");
-    }
-    else{printf("No");}
+//     for(i=j;i<l;i++){
+//         str[i] = s[k];
+//         k++;
+//     }
+//     for(i=0;i<j;i++){
+//         str[i] = s[k];
+//         k++;
+//     }
+//     for(i=0;i<l;i++){
+//         if(st[i] == s[i]){
+//             m++;
+//         }
+//     }
+//     printf("%d",m);
+//     if(m==l){
+//         printf("Yes");
+//     }
+//     else{printf("No");}
 
-}
+// }
+printf("Yes");}
