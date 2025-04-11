@@ -45,4 +45,7 @@ int main(){
     if(k==l){
         printf("Yes");
     }
+    else{
+        printf("No");
+    }
 }
