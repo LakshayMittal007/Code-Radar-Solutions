@@ -21,7 +21,11 @@ int main(){
             break;
         }
     }
-    printf("%d",j);
+    if(str[1]!=st[j+1]){
+        printf("No");
+        return 0;
+    }
+
     
     for(i=j;i<l;i++){
         str[i] = s[k];
