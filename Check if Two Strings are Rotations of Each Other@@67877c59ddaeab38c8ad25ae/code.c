@@ -16,15 +16,14 @@ int main(){
         printf("No");
         return 0;
     }
-    else{
-        for(j=0;j<l;j++){
-            if(str[0]==str[j]){
-                break;
-            }
+    for(j=0;j<l;j++){
+        if(str[0]==str[j]){
+            break;
         }
+    }
     
     for(i=j;i<l;i++){
-        str[i] == s[k];
+        str[i] = s[k];
         k++;
     }
     for(i=0;i<j;i++){
@@ -42,4 +41,4 @@ int main(){
     }
     else{printf("No");}
 
-}}
+}
