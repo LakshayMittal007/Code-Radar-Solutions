@@ -19,16 +19,16 @@ int main(){
     }
     for(j=0;j<len;j++){
         printf("%c",st[j]);
-        if(st[j]==st[len-j-1]){
-            k++;
-        }
+        // if(st[j]==st[len-j-1]){
+        //     k++;
+        // }
     }
-    printf("%d",k);
-    if((len-1)/2 == k){
-        printf("Yes");
-    }
-    else{
-        printf("No");
-    }
+    // printf("%d",k);
+    // if((len-1)/2 == k){
+    //     printf("Yes");
+    // }
+    // else{
+    //     printf("No");
+    // }
     return 0;
 }
