@@ -2,7 +2,7 @@
 int main(){
     char str[100];
     char st[100];
-    int i,j,k=0,l=0,len=0;
+    int i,j=0,k=0,l=0,len=0;
     scanf("%[^\n]s",str);
     for(i=0;str[i]!='\0';i++){
         l++;
@@ -23,7 +23,7 @@ int main(){
         }
     }
     printf("%d",k);
-    if(len/2 + 1 == k){
+    if((len-1)/2 == k){
         printf("Yes");
     }
     else{
