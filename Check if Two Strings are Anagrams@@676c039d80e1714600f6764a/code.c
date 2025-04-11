@@ -11,6 +11,9 @@ int main(){
     for(i=0;st[i]!='\0';i++){
         len++;
     }
-    for(i=0;str[i]!='\0';i++){
+    for(i=0;i<l;i++){
+        for(j=i+1;j<l;j++){
+            if(str[i])
+        }
     }
 }
