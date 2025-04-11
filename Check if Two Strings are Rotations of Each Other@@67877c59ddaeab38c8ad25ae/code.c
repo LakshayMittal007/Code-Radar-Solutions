@@ -2,9 +2,10 @@
 int main(){
     char str[100];
     char st[100];
+    char s[100];
     scanf("%s\n",str);
     scanf("%s",st);
-    int i,j,k,l=0,len=0;
+    int i,j,m=0,k=0,l=0,len=0;
     for(i=0;str[i]!='\0';i++){
         l++;
     }
@@ -15,4 +16,29 @@ int main(){
         printf("No");
         return 0;
     }
+    else{
+        for(j=1;j<l;j++){
+            if(str[0]==str[j]){
+                break;
+            }
+        }
+    }
+    for(i=j;i<l;i++){
+        str[i] == s[k];
+        k++;
+    }
+    for(i=0;i<j;i++){
+        str[i] = s[k];
+        k++;
+    }
+    for(i=0;i<l;i++){
+        if(st[i] == s[i]){
+            m++;
+        }
+    }
+    if(m==l){
+        printf("Yes");
+    }
+    else{printf("No");}
+
 }
