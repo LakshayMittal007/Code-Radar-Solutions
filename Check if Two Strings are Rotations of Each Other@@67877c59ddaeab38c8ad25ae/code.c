@@ -21,10 +21,13 @@ int main(){
             break;
         }
     }
-    if(str[1]!=st[j+1]||str[2]!=st[j+2]){
+    if(l>3){
+        if(str[1]!=st[j+1]||str[2]!=st[j+2]){
         printf("No");
         return 0;
     }
+    }
+    
 
     
 //     for(i=j;i<l;i++){
