@@ -23,7 +23,7 @@ int main(){
         }
     }
     printf("%d",k);
-    if(len/2 - 1 == k){
+    if(len/2 + 1 == k){
         printf("Yes");
     }
     else{
