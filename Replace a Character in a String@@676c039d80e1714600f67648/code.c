@@ -19,9 +19,9 @@
 //     return 0;
 // }
 #include <stdio.h>
-
+#include <string.h>
 int i,j,n;
 char name[100];
 char ch;
 scanf("%s\n",name);
-scanf("%c\n",&ch);
+scanf(" %c\n",&ch);
