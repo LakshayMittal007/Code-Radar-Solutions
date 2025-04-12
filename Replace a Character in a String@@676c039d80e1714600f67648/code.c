@@ -18,10 +18,21 @@
 //     }
 //     return 0;
 // }
-#include <stdio.h>
-#include <string.h>
-int i,j,n;
-char name[100];
-char ch;
-scanf("%s",name);
-scanf(" %c\n",&ch);
+#include<stdio.h>
+int main(){
+    char str[50];
+    char n;
+    char a;
+    scanf("%[^\n]s",str);
+    getchar();
+    scanf("%c\n",&n);
+    scanf("%c",&a);
+    for (i=0;i<n;i++){
+        if (name[i]=='n'){
+            name[i]='a';
+        }
+    }
+    for (i=0;i<n;i++){
+        printf("%c",name[i]);
+    }
+}
