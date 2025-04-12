@@ -24,4 +24,4 @@ int i,j,n;
 char name[100];
 char ch;
 scanf("%s",name);
-scanf("%c",ch);
+scanf("%c",&ch);
