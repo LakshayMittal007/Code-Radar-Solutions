@@ -21,7 +21,7 @@
 #include<stdio.h>
 #include <string.h>
 int main(){
-    int i,n;
+    int i,len;
     char name[50];
     char n;
     char a;
