@@ -19,11 +19,14 @@
 //     return 0;
 // }
 #include<stdio.h>
+#include <string.h>
 int main(){
-    char str[50];
+    int i,n;
+    char name[50];
     char n;
     char a;
-    scanf("%[^\n]s",str);
+    scanf("%[^\n]s",name);
+    n=strlen(name);
     getchar();
     scanf("%c\n",&n);
     scanf("%c",&a);
