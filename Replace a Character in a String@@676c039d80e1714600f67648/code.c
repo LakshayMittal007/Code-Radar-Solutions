@@ -26,16 +26,16 @@ int main(){
     char n;
     char a;
     scanf("%[^\n]s",name);
-    n=strlen(name);
     getchar();
+    len=strlen(name);
     scanf("%c\n",&n);
     scanf("%c",&a);
-    for (i=0;i<n;i++){
+    for (i=0;i<len;i++){
         if (name[i]=='n'){
             name[i]='a';
         }
     }
-    for (i=0;i<n;i++){
+    for (i=0;i<len;i++){
         printf("%c",name[i]);
     }
 }
