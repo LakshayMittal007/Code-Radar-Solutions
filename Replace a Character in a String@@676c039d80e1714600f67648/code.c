@@ -31,8 +31,8 @@ int main(){
     scanf("%c\n",&n);
     scanf("%c",&a);
     for (i=0;i<len;i++){
-        if (name[i]=='n'){
-            name[i]='a';
+        if (name[i]==n){
+            name[i]=a;
         }
     }
     for (i=0;i<len;i++){
